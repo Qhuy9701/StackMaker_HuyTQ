@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 101191365}
   - component: {fileID: 101191366}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,12 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe5deeed3c8de74eba0feca3893cb84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brickmove: {fileID: 9063142397235578762, guid: 260c5d0d24cde6344965d9497e0d40a5, type: 3}
-  brickwall: {fileID: 4957739676876243917, guid: b2a056063c987884780af246db88482f, type: 3}
-  brickremove: {fileID: 4957739676876243917, guid: 268c1ea2e0aa8194682aa2e6cab61fc7, type: 3}
-  brickstart: {fileID: 4314168009634080064, guid: 548dae4ee63a0e94aa0a68cb632170f0, type: 3}
-  brickstop: {fileID: 4314168009634080064, guid: a656ba0a28be13f4284241a6fd2992fc, type: 3}
-  brickwallcheck: {fileID: 4957739676876243917, guid: 9eae436df4b80464a8677747c5acbb00, type: 3}
+  row: 0
+  column: 0
+  brickPrefab: {fileID: 7864681898127114226, guid: 48287626e27c0d6449dbce68ab4dd83e, type: 3}
+  player: {fileID: 0}
 --- !u!1 &339564367
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +223,8 @@ MonoBehaviour:
   endPoint: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
   numberbrick: 0
+  isMoving: 1
+  isTouch: 1
 --- !u!136 &339564370
 CapsuleCollider:
   m_ObjectHideFlags: 0

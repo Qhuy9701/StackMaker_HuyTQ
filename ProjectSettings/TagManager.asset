@@ -4,22 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - StartPoint
-  - EndPoint
-  - StartPointorEndPoint
-  - brickmove
-  - brickremove
-  - brickstop
-  - brickwall
-  - brickwallcheck
+  - Walkable Block
+  - Edible Block
+  - Inedible Block
+  - Win
+  - end
+  - Brick
+  - RemoveBrick
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - StartPoint
+  - 
   - Water
   - UI
-  - brickwall
+  - 
   - 
   - 
   - 
